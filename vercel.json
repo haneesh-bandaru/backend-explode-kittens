@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "main", "use": "@now/static-build" }],
+  "routes": [{ "src": "/.*", "dest": "main" }]
+}
